@@ -45,6 +45,8 @@ nav{
     position: -webkit-sticky; /*safari browser*/
     top: 0px;
     background-color: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid #364F6B;
 }
 
 nav ul {
@@ -136,3 +138,34 @@ p{
     padding: 10px 0px 10px 0px;
 }
 
+
+.tengah{
+    text-align: center;
+    /* background-color: lightblue; */
+    width: 100%;
+}
+
+.tutor-list{
+    /* background-color: lightblue; */
+    width: 100%;
+    display: flex;    
+    flex-wrap: wrap;
+}
+
+.kartu-tutor{
+    width: 20%;
+    margin: 0 auto;
+    /* background-color: lightcoral; */
+}
+
+.kartu-tutor img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    color: #364F6B;
+}
