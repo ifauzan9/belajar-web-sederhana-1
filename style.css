@@ -8,8 +8,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", sans-serif;
-    padding-bottom: 1000px;
+    font-family: "Open Sans", sans-serif;    
 }
 
 .wrapper{    
@@ -52,7 +51,7 @@ nav ul {
     list-style: none;
     overflow: hidden;
     margin: 0;
-    padding: 0;        
+    padding: 0;            
 }
 
 nav ul li{
@@ -69,5 +68,71 @@ nav ul li a{
 
 nav ul li a:hover{
     text-decoration: underline;
+}
+
+section{
+    /* background-color: lightblue; */
+    margin: auto;    
+    margin-bottom: 95px;
+    display: flex;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* background-color: lightcoral; */
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364F6B;
+}
+
+h2{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #364F6B;
+    width: 100%;
+    /* background-color: gold; */
+    line-height: 50px;    
+}
+
+a.tbl-biru{
+    background-color: #3F72AF;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background-color: #FC5185;
+    text-decoration: none;
+}
+
+a.tbl-pink{    
+    background-color: #FC5185;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;    
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover{
+    background-color: #3F72AF;
+    text-decoration: none;
+}
+
+p{
+    margin:10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
 }
 
